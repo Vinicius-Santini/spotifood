@@ -1,0 +1,35 @@
+.sidenav {
+  height: 85vh;
+  width: 10%;
+  background-color: #2dbf7f;
+  color: #f7f9f9;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: relative;
+}
+
+.sidenav h1 {
+  padding-left: 12px;
+  padding-top: 5px;
+}
+
+.sidenav li {
+  padding-left: 15px;
+  font-size: 18px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.sidenav ul {
+  list-style-type: none;
+}
+
+.dateInput {
+  width: 20vh;
+  font-size: 14px;
+  height: 25px;
+}
+
+.filterSelected {
+  background-color: #239060;
+}

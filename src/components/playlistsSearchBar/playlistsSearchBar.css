@@ -1,0 +1,42 @@
+.divz {
+  display: flex;
+  justify-content: space-around;
+}
+.divx {
+  display: flex;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+}
+input {
+  background-color: #f7f9f9;
+  font-size: 25px;
+  color: #4b4b4a;
+  flex: 1;
+  border: solid #f7f9f9 3px;
+  border-radius: 18px;
+  margin-right: 7px;
+  padding-left: 10px;
+  box-shadow: 2px 3px #b1c3bb;
+}
+
+input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 25px;
+}
+.rogerio {
+  background: #2dbf7f;
+  width: 15vh;
+  border-radius: 18px;
+  color: #f7f9f9;
+  font-weight: bold;
+  font-size: 26px;
+  box-shadow: 3px 3px #87c6aa;
+  cursor: pointer;
+}

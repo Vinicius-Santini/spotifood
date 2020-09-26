@@ -1,0 +1,36 @@
+.Card {
+  width: 50vh;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  background-color: #0000009d;
+  border-radius: 20px;
+  border: solid #2dbf7f 3px;
+  cursor: pointer;
+}
+
+.Card .Header {
+  display: flex;
+  justify-content: center;
+}
+
+.Card .Header .Title {
+  font-size: 30px;
+  padding: 10px;
+  color: #f7f9f9;
+}
+
+.Card .Content {
+  padding: 10px;
+  color: #f7f9f9;
+  font-size: 20px;
+  text-align: center;
+}
+
+.playlistImage {
+  border-radius: 18px;
+  width: auto;
+  height: 75%;
+  border-bottom: solid #2dbf7f 3px;
+}
