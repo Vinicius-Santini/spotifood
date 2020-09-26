@@ -5,7 +5,6 @@
   color: #f7f9f9;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  position: relative;
 }
 
 .sidenav h1 {
@@ -32,4 +31,113 @@
 
 .filterSelected {
   background-color: #239060;
+}
+
+@media (min-width: 1451px) and (max-width: 2560px) and (min-height: 950px) and (max-height: 1000px) {
+  .sidenav {
+    width: 30vh;
+  }
+}
+@media (min-width: 1451px) and (max-width: 2560px) and (max-height: 950px) {
+  .sidenav {
+    width: 30vh;
+    height: 100vh;
+  }
+  .sidenav h1 {
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 30px;
+  }
+  .sidenav h2 {
+    margin-left: 5px;
+    padding-left: 20px;
+    font-size: 25px;
+  }
+
+  .sidenav li {
+    margin-left: 10px;
+    padding-left: 30px;
+    font-size: 19px;
+    padding-bottom: 10px;
+  }
+
+  .sidenav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .dateInput {
+    width: 20vh;
+    font-size: 12px;
+    height: 25px;
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1450px) {
+  .sidenav {
+    width: 20vh;
+    height: 90vh;
+  }
+  .sidenav h1 {
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 25px;
+  }
+  .sidenav h2 {
+    padding-left: 15px;
+    font-size: 20px;
+  }
+
+  .sidenav li {
+    margin: 0;
+    padding-left: 25px;
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+
+  .sidenav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .dateInput {
+    width: 10vh;
+    font-size: 14px;
+    height: 23px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sidenav {
+    width: 8vh;
+  }
+  .sidenav h1 {
+    padding-left: 2px;
+    padding-top: 2px;
+    font-size: 22px;
+  }
+  .sidenav h2 {
+    padding-left: 5px;
+    font-size: 18px;
+  }
+
+  .sidenav li {
+    margin: 0;
+    padding-left: 5px;
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+
+  .sidenav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .dateInput {
+    width: 4vh;
+    font-size: 14px;
+    height: 25px;
+  }
 }

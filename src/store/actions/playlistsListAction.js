@@ -1,7 +1,6 @@
 import {
   GET_PLAYLISTS,
   URL_PLAYLISTS,
-  URL_PLAYLIST_IMG,
   URL_TOKEN,
   SEARCH_PLAYLISTS,
   UPDATE_FILTER,
@@ -19,8 +18,8 @@ const verifyToken = async (oldToken) => {
       }),
       headers: {
         "content-type": "application/x-www-form-urlencoded;charset=utf-8",
-        // Authorization:
-        /* Use 'Basic' e a chave aqui encriptada aqui */
+        Authorization:
+          "Basic NTliMjU4ZmE5Zjg4NGZiOWE3NzRhMjk3MzkzZGU1NjI6OWIyYWQxZWEyNzRmNDI3NWE2Mjc4ZDNkMTQ3MjA0MmM=",
       },
       method: "post",
       url,
@@ -39,7 +38,6 @@ export const getFeaturedPlaylists = (oldToken, activeFilter) => async (
   dispatch
 ) => {
   const url = URL_PLAYLISTS;
-  const imageUrl = URL_PLAYLIST_IMG;
   const token = await verifyToken(oldToken);
   const Authorization = `${token.token_type} ${token.access_token}`;
   return dispatch({

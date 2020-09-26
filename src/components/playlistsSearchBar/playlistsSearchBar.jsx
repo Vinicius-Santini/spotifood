@@ -14,9 +14,10 @@ const playlistsSearchBar = (props) => {
     getMatchedPlaylists(matched);
   };
   return (
-    <div className="divz">
-      <div className="divx">
+    <div className="searchBarContainer">
+      <div className="searchBarDiv">
         <input
+          className="searchBar"
           type="text"
           placeholder="Procure playlists pelo nome"
           onChange={(e) => searchFunction(e.target.value)}

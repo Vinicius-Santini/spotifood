@@ -15,7 +15,7 @@ function App() {
         />
         <Header />
         <SearchBar />
-        <div className="lf">
+        <div className="listAndFilter">
           <SideBarFilter />
           <PlaylistsList />
         </div>

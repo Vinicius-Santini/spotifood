@@ -10,18 +10,18 @@
   cursor: pointer;
 }
 
-.Card .Header {
+.Card .cardHeader {
   display: flex;
   justify-content: center;
 }
 
-.Card .Header .Title {
+.Card .cardHeader .cardTitle {
   font-size: 30px;
   padding: 10px;
   color: #f7f9f9;
 }
 
-.Card .Content {
+.Card .cardContent {
   padding: 10px;
   color: #f7f9f9;
   font-size: 20px;
@@ -33,4 +33,20 @@
   width: auto;
   height: 75%;
   border-bottom: solid #2dbf7f 3px;
+}
+
+@media (max-width: 600px) {
+  .Card {
+    width: 30vh;
+    height: 50vh;
+  }
+  .Card .cardHeader .cardTitle {
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  .Card .cardContent {
+    padding: 5px;
+    font-size: 15px;
+  }
 }

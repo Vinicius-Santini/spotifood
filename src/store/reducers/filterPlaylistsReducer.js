@@ -1,4 +1,4 @@
-import { GET_FILTERS, FILTER_PLAYLISTS } from "../actions/actionTypes";
+import { GET_FILTERS } from "../actions/actionTypes";
 
 const initialState = { filters: [] };
 

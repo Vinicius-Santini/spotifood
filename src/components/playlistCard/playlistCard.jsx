@@ -1,21 +1,14 @@
 import React from "react";
 import "./playlistCard.css";
 
-const playlistCard = ({
-  key,
-  id,
-  name,
-  description,
-  imageUrl,
-  playlistUrl,
-}) => {
+const playlistCard = ({ name, description, imageUrl, playlistUrl }) => {
   return (
-    <div className="Card">
+    <div className="Card" onClick={() => (window.location = playlistUrl)}>
       <img className="playlistImage" src={imageUrl}></img>
-      <div className="Header">
-        <span className="Title">{name}</span>
+      <div className="cardHeader">
+        <span className="cardTitle">{name}</span>
       </div>
-      <div className="Content">{description}</div>
+      <div className="cardContent">{description}</div>
     </div>
   );
 };

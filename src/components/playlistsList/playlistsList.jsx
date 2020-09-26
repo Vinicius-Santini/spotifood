@@ -55,7 +55,7 @@ export class playlistsList extends Component {
               }
             })
           ) : (
-            <div class="lds-ring">
+            <div className="lds-ring">
               <div></div>
               <div></div>
               <div></div>

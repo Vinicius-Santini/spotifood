@@ -1,8 +1,8 @@
-.divz {
+.searchBarContainer {
   display: flex;
   justify-content: space-around;
 }
-.divx {
+.searchBarDiv {
   display: flex;
   padding-top: 5vh;
   padding-bottom: 5vh;
@@ -30,13 +30,13 @@ input:focus {
   color: rgba(0, 0, 0, 0.2);
   font-size: 25px;
 }
-.rogerio {
-  background: #2dbf7f;
-  width: 15vh;
-  border-radius: 18px;
-  color: #f7f9f9;
-  font-weight: bold;
-  font-size: 26px;
-  box-shadow: 3px 3px #87c6aa;
-  cursor: pointer;
+
+@media (max-width: 600px) {
+  input {
+    width: 30vh;
+  }
+  ::placeholder {
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+  }
 }
