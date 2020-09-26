@@ -18,8 +18,8 @@ const verifyToken = async (oldToken) => {
       }),
       headers: {
         "content-type": "application/x-www-form-urlencoded;charset=utf-8",
-        Authorization:
-          "Basic NTliMjU4ZmE5Zjg4NGZiOWE3NzRhMjk3MzkzZGU1NjI6OWIyYWQxZWEyNzRmNDI3NWE2Mjc4ZDNkMTQ3MjA0MmM=",
+        // Authorization:
+        //   "Basic ",
       },
       method: "post",
       url,
