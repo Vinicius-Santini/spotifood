@@ -33,6 +33,37 @@
   background-color: #239060;
 }
 
+@media (min-height: 1080px) {
+  .sidenav h1 {
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 30px;
+  }
+  .sidenav h2 {
+    margin-left: 5px;
+    padding-left: 20px;
+    font-size: 25px;
+  }
+
+  .sidenav li {
+    margin-left: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .sidenav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .dateInput {
+    width: 15vh;
+    font-size: 12px;
+    height: 25px;
+    margin-left: 10px;
+  }
+}
 @media (min-width: 1451px) and (max-width: 2560px) and (min-height: 950px) and (max-height: 1000px) {
   .sidenav {
     width: 30vh;
